@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<br />
+  <h1>TodoList (Vanilla JS)</h1>
+<br /><br />
+  <div>
+    <input id="addTodoTextInput" type="text" style="width: 311px;" />
+    <button onclick="handlers.addTodo()" id="btnAddTodos">Add</button>
+  </div>
+
+  <div>
+    #<input id="chgTodoNum" type="number" style="width: 36px;" />
+    text:<input id="chgTodoText" type="text" style="width: 206px;" />
+    <button onclick="handlers.changeTodo()">Change</button>
+  </div>
+
+  <div>
+    <button onclick="handlers.toggleAll()">Toggle All</button>
+  </div>
+
+  <hr />
+
+  <ul></ul>
+  <script src="script.js"></script>
+</body>
+
+</html>
